@@ -6,3 +6,12 @@ input:
   class: "beam.io.HTTPFile"
   kwargs:
     url: "https://example.com/something"
+
+# Maybe an even simpler interface; why should this user worry about Beam?
+# input:
+#   url: "https://example.com/something"
+#
+#   OR
+#
+# input:
+#   dataone_doi: "someDOI"

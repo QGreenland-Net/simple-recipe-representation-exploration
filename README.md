@@ -13,3 +13,11 @@ recipe = (
 )
 
 ```
+
+
+## Thoughts
+
+* The list of commands could be represented as a `PCollection` that is handled by a
+  `PTransform` that generates "sub-`PTransforms`" (`.expand()` method on a
+  `PTransform` class?)? Could that help us skip the step of generating a Python
+  executable and instead pass that raw `PCollection` data to a static recipe.

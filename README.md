@@ -7,10 +7,9 @@ The current program emits:
 
 ```python
 recipe = (
-  beam.io.HTTPFile(
-    **{'url': 'https://example.com/something'}
-  )
+  beam.io.SomeTransformThatCanReadAFileFromAUrl(https://example.com/something)
   | CommandPTransform("""gdalwarp -t_srs EPSG:3413 {input} {output}""")
   | CommandPTransform("""echo "Heya!"""")
 )
+
 ```

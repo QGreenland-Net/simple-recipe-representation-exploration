@@ -1,7 +1,5 @@
 recipe = (
-  {{config.input.class}}(
-    **{{config.input.kwargs}}
-  )
+  {{input_constructor}}({{input_constructor_arg}})
 {%- for cmd in commands %}
   | CommandPTransform("""{{cmd}}""")
 {%- endfor %}

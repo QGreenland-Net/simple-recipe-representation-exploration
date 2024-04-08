@@ -1,16 +1,6 @@
 input:
-  # This is way-simplified version of the meta-programming we'd need to
-  # actually do. Similar to how PangeoForge's runner config takes a
-  # dot-delimited module string, we need more information than this.
-  # Also, everything here is made up.
-  class: "beam.io.HTTPFile"
-  kwargs:
-    url: "https://example.com/something"
+  url: "https://example.com/something"
 
-# Maybe an even simpler interface; why should this user worry about Beam?
-# input:
-#   url: "https://example.com/something"
-#
 #   OR
 #
 # input:

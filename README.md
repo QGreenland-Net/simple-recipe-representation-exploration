@@ -1,3 +1,13 @@
+# Apache Beam Simple OGDC Recipe Exploration
+
+This repository has been archived.
+
+This repo was an exploration of using Apache Beam to create a simple OGDC
+recipe. The QGreenland-Net team is no longer considering the use of Apache Beam,
+and instead is pursuing the use of Argo Workflows. See the
+[ogdc-runner](https://github.com/QGreenland-Net/ogdc-runner/) for the latest
+developments.
+
 The point of this spike is to show an example of a very simple representation that works
 for a very constrained use case. This makes some chunk of use cases much more
 accessible, similar to what `repo2docker` does for managing Docker image builds.
